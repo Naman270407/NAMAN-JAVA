@@ -1,0 +1,6 @@
+n = int(input("enter the number :"))
+sales = list(map( int , input("enter the sales : ").split()))
+minimum_sales=min(sales)
+maximum_sales=max(sales)
+print(maximum_sales , end=" ")
+print(minimum_sales)
